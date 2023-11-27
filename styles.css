@@ -1,0 +1,126 @@
+.nav-items {
+    display: flex;
+    align-items: center;
+    height: 64px;
+    margin:0 24px;
+}
+strong{
+    color: black;
+    font-weight: 300;
+
+}
+.brandname {
+    color: gray;
+    font-weight: 300;
+}
+nav {
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background-color: white;
+    z-index: 1000;
+}
+h1{
+    /* display: inline-block; */
+    margin-bottom: 25px;
+    
+}
+.top {
+    margin-bottom: 25px;
+}
+button {
+    background-color: #4A4A4A;
+    border: none;
+    cursor: pointer;
+    color: white;
+    width: 300px;
+    height: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+button:hover {
+    color: red;
+}
+body {
+    margin-top: 64px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.mid-list{
+    display: inline-flex;
+    width: 40%;
+    height: 100%;
+
+  
+    
+}
+ ul {
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+}
+.top-section, .mid-section {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.mid-section{
+    align-items: stretch;
+}
+.mid-readmore {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+.top-section {
+    background-color:darkgray;
+}
+.mid-description {
+    margin-left: 24px;
+    width: 65%;
+}
+.mid-banner {
+    margin-left: 16px;
+    margin-top: 16px;
+    height: 150px;
+}
+
+.list-group {
+    margin-top: 16px;
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    border-left: 1px solid;
+}
+.mid-items {
+   display: flex;
+   align-items: center;
+   margin: 0;
+
+}
+.hard {
+    width: 60%;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+
+.banner {
+    margin: 32px 24px;
+    background-size: cover;
+}
+a {
+    color: grey;
+    text-decoration: none;
+}
+li {
+    display: inline;
+    margin-left: 16px;
+}
